@@ -1,0 +1,6 @@
+{
+  "name": "Aesthetic Birthday Celebration",
+  "description": "An aesthetic, cute birthday website with interactive sunflower bloom, photo gallery, love letter, memory timeline, interactive birthday cake, gift box, and golden fireworks.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

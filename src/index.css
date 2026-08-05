@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+/* Custom Heart Cursor */
+* {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%23f43f5e' stroke='%23be123c' stroke-width='1.5'%3E%3Cpath d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z'/%3E%3C/svg%3E") 12 12, auto;
+}
+
+button, a, input, select, textarea, [role="button"], label {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 24 24' fill='%23e11d48' stroke='%23ffffff' stroke-width='2'%3E%3Cpath d='M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z'/%3E%3C/svg%3E") 14 14, pointer !important;
+}
+
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  h1, h2, .font-serif {
+    font-family: 'Playfair Display', serif;
+  }
+  .font-handwriting {
+    font-family: 'Caveat', cursive;
+  }
+  .font-script {
+    font-family: 'Dancing Script', cursive;
+  }
+}
+
+/* Glassmorphism helpers */
+.glass-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 20px 40px -15px rgba(220, 180, 160, 0.25);
+}
+
+.glass-card-dark {
+  background: rgba(30, 25, 20, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.4);
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1.5px solid rgba(220, 200, 180, 0.6);
+  backdrop-filter: blur(8px);
+}
+
+.glass-input:focus {
+  border-color: #eab308;
+  box-shadow: 0 0 0 3px rgba(234, 179, 8, 0.2);
+}
+
+/* Hide scrollbar for clean aesthetic */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Soft glow animations */
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(2deg); }
+}
+
+@keyframes breatheSoft {
+  0%, 100% { transform: scale(1); opacity: 0.95; }
+  50% { transform: scale(1.05); opacity: 1; }
+}
+
+@keyframes candleFlicker {
+  0%, 100% { transform: scale(1) rotate(-1deg); opacity: 0.95; filter: drop-shadow(0 0 12px #f59e0b); }
+  25% { transform: scale(1.08) rotate(1deg); opacity: 1; filter: drop-shadow(0 0 16px #fbbf24); }
+  50% { transform: scale(0.95) rotate(-2deg); opacity: 0.88; filter: drop-shadow(0 0 8px #f59e0b); }
+  75% { transform: scale(1.04) rotate(2deg); opacity: 0.98; filter: drop-shadow(0 0 14px #fbbf24); }
+}
+
+@keyframes shakePasscode {
+  0%, 100% { transform: translateX(0); }
+  15%, 45%, 75% { transform: translateX(-10px); }
+  30%, 60%, 90% { transform: translateX(10px); }
+}
+
+.animate-candle {
+  animation: candleFlicker 1.2s infinite ease-in-out;
+}
+
+.animate-shake {
+  animation: shakePasscode 0.45s ease-in-out;
+}
+
+.animate-float {
+  animation: floatSlow 5s ease-in-out infinite;
+}
+
+.animate-breathe {
+  animation: breatheSoft 3s ease-in-out infinite;
+}
+
