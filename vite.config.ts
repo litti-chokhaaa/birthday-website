@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/birthday-website/', // ✅ GitHub repository name
+    base: '/birthday-website/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
