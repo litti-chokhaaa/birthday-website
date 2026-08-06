@@ -43,61 +43,69 @@ export const THEME: ThemeConfig = {
   },
 
   photos: [
-  {
-    id: "p1",
-    url: "https://litti-chokhaaa.github.io/birthday-website/images/image-1.jpeg",
-    caption: "A smile that makes every day brighter ✨",
-    tag: "Smile",
-  },
-  {
-    id: "p2",
-    url: "https://litti-chokhaaa.github.io/birthday-website/images/image-2.jpg",
-    caption: "Elegance wrapped in sunshine 🌸",
-    tag: "Sunset",
-  },
-  {
-    id: "p3",
-    url: "https://litti-chokhaaa.github.io/birthday-website/images/image-3.jpg",
-    caption: "Happiness looks beautiful on you 💖",
-    tag: "Joy",
-  },
-  {
-    id: "p4",
-    url: "https://litti-chokhaaa.github.io/birthday-website/images/image-4.jpg",
-    caption: "Blooming with grace and confidence 🌿",
-    tag: "Adventure",
-  },
-  {
-    id: "p5",
-    url: "https://litti-chokhaaa.github.io/birthday-website/images/image-5.jpg",
-    caption: "Lost in dreams, glowing with grace 🌙",
-    tag: "Sparkle",
-  },
-  {
-    id: "p6",
-    url: "https://litti-chokhaaa.github.io/birthday-website/images/image-6.jpg",
-    caption: "Royal by heart, graceful by nature 👑",
-    tag: "Love",
-  },
-  {
-    id: "p7",
-    url: "https://litti-chokhaaa.github.io/birthday-website/images/image-7.jpg",
-    caption: "Shining brighter with every moment ✨",
-    tag: "Sparkle",
-  },
-  {
-    id: "p8",
-    url: "https://litti-chokhaaa.github.io/birthday-website/images/image-8.jpg",
-    caption: "Walking through life with confidence 🌷",
-    tag: "Sparkle",
-  },
-  {
-    id: "p9",
-    url: "https://litti-chokhaaa.github.io/birthday-website/images/image-9.jpg",
-    caption: "Grace captured in a single frame. 🌸",
-    tag: "Sparkle",
-  }
-],
+    {
+      id: "p1",
+      url: "images/image-1.jpeg",
+      caption: "A smile that makes every day brighter ✨",
+      tag: "Smile",
+    },
+
+    {
+      id: "p2",
+      url: "images/image-2.jpg",
+      caption: "Elegance wrapped in sunshine 🌸",
+      tag: "Sunset",
+    },
+
+    {
+      id: "p3",
+      url: "images/image-3.jpg",
+      caption: "Happiness looks beautiful on you 💖",
+      tag: "Joy",
+    },
+
+    {
+      id: "p4",
+      url: "images/image-4.jpg",
+      caption: "Blooming with grace and confidence 🌿",
+      tag: "Adventure",
+    },
+
+    {
+      id: "p5",
+      url: "images/image-5.jpg",
+      caption: "Lost in dreams, glowing with grace 🌙",
+      tag: "Sparkle",
+    },
+
+    {
+      id: "p6",
+      url: "images/image-6.jpg",
+      caption: "Royal by heart, graceful by nature 👑",
+      tag: "Love",
+    },
+
+    {
+      id: "p7",
+      url: "images/image-7.jpg",
+      caption: "Shining brighter with every moment ✨",
+      tag: "Sparkle",
+    },
+
+    {
+      id: "p8",
+      url: "images/image-8.jpg",
+      caption: "Walking through life with confidence 🌷",
+      tag: "Sparkle",
+    },
+
+     {
+      id: "p9",
+      url: "images/image-9.jpg",
+      caption: "Grace captured in a single frame. 🌸",
+      tag: "Sparkle",
+    }
+  ],
 
   reasons: [
     {
@@ -172,8 +180,8 @@ export const THEME: ThemeConfig = {
     {
       id: "t4",
       date: "2026",
-      title: "Happy 21th Birthday! 🎂",
-      description: "Today is a celebration of 21 amazing years. May this new chapter bring endless happiness, success, good health, beautiful memories, and all the dreams your heart wishes for. Keep smiling and shining like the sunflower you are. 🌻💛",
+      title: "Happy 20th Birthday! 🎂",
+      description: "Today is a celebration of 20 amazing years. May this new chapter bring endless happiness, success, good health, beautiful memories, and all the dreams your heart wishes for. Keep smiling and shining like the sunflower you are. 🌻💛",
       badge: "🎂 A New Chapter Begins",
       image: "https://images.openai.com/static-rsc-4/iZsRySu0Q6EB8rkMiCZTai61vguMkn8c_0WnMvqUeY0nunV1uXTtENiPgQ7767hPhJJ0JR2TXXRJTILd6WQPJ0JvIxYpOh5no_i_NZrLwedkfsvL1eHSenT2vqx21FmBcJfliYR59Nq5l1rmBuMd1Cmx9x22ZElHAwdaPJg8SCqbeEqT1phvq504VjLkB_nN?purpose=fullsize"
     }

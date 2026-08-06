@@ -3,23 +3,18 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import { defineConfig } from 'vite';
 
-export default defineConfig({
-  // 👇 Must match your repo name exactly
-  base: '/birthday-website/',
-
-  plugins: [react(), tailwindcss()],
-
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, 'src'), // safer alias for imports
+export default defineConfig(() => {
+  return {
+    base: '/birthday-website/',
+    plugins: [react(), tailwindcss()],
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, '.'),
+      },
     },
-  },
-
-  build: {
-    outDir: 'dist', // GitHub Pages deploys this folder
-  },
-
-  server: {
-    hmr: true, // keep hot reload simple
-  },
+    server: {
+      hmr: process.env.DISABLE_HMR !== 'true',
+      watch: process.env.DISABLE_HMR === 'true' ? null : {},
+    },
+  };
 });
