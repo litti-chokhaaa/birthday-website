@@ -4,22 +4,22 @@ import path from 'path';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  // 👇 Must match your repository name exactly
+  // 👇 Must match your repo name exactly
   base: '/birthday-website/',
 
   plugins: [react(), tailwindcss()],
 
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, 'src'), // 👈 usually point to src folder
+      '@': path.resolve(__dirname, 'src'), // safer alias for imports
     },
   },
 
   build: {
-    outDir: 'dist', // 👈 GitHub Actions deploys this folder
+    outDir: 'dist', // GitHub Pages deploys this folder
   },
 
   server: {
-    hmr: true, // 👈 keep hot reload simple
+    hmr: true, // keep hot reload simple
   },
 });
