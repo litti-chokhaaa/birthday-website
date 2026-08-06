@@ -16,12 +16,12 @@ export const PhotoGallery: React.FC = () => {
     : photosList.filter((p) => p.tag === selectedTag);
 
   const formatUrl = (url: string) => {
-    if (!url) return '';
-    if (url.startsWith('http://') || url.startsWith('https://') || url.startsWith('data:') || url.startsWith('/')) {
-      return url;
-    }
-    return `/${url}`;
-  };
+  if (!url) return '';
+  if (url.startsWith('http://') || url.startsWith('https://') || url.startsWith('data:')) {
+    return url;
+  }
+  return `${import.meta.env.BASE_URL}${url}`;
+};
 
   return (
     <section id="gallery" className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto relative">
