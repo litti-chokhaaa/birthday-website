@@ -43,69 +43,69 @@ export const THEME: ThemeConfig = {
   },
 
   photos: [
-    {
-      id: "p1",
-      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-1.jpeg",
-      caption: "A smile that makes every day brighter ✨",
-      tag: "Smile",
-    },
+  {
+    id: "p1",
+    url: `${import.meta.env.BASE_URL}images/image-1.jpeg`,
+    caption: "A smile that makes every day brighter ✨",
+    tag: "Smile",
+  },
 
-    {
-      id: "p2",
-      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-2.jpg",
-      caption: "Elegance wrapped in sunshine 🌸",
-      tag: "Sunset",
-    },
+  {
+    id: "p2",
+    url: `${import.meta.env.BASE_URL}images/image-2.jpg`,
+    caption: "Elegance wrapped in sunshine 🌸",
+    tag: "Sunset",
+  },
 
-    {
-      id: "p3",
-      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-3.jpg",
-      caption: "Happiness looks beautiful on you 💖",
-      tag: "Joy",
-    },
+  {
+    id: "p3",
+    url: `${import.meta.env.BASE_URL}images/image-3.jpg`,
+    caption: "Happiness looks beautiful on you 💖",
+    tag: "Joy",
+  },
 
-    {
-      id: "p4",
-      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-.jpg",
-      caption: "Blooming with grace and confidence 🌿",
-      tag: "Adventure",
-    },
+  {
+    id: "p4",
+    url: `${import.meta.env.BASE_URL}images/image-4.jpg`,
+    caption: "Blooming with grace and confidence 🌿",
+    tag: "Adventure",
+  },
 
-    {
-      id: "p5",
-      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-5.jpg",
-      caption: "Lost in dreams, glowing with grace 🌙",
-      tag: "Sparkle",
-    },
+  {
+    id: "p5",
+    url: `${import.meta.env.BASE_URL}images/image-5.jpg`,
+    caption: "Lost in dreams, glowing with grace 🌙",
+    tag: "Sparkle",
+  },
 
-    {
-      id: "p6",
-      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-6.jpg",
-      caption: "Royal by heart, graceful by nature 👑",
-      tag: "Love",
-    },
+  {
+    id: "p6",
+    url: `${import.meta.env.BASE_URL}images/image-6.jpg`,
+    caption: "Royal by heart, graceful by nature 👑",
+    tag: "Love",
+  },
 
-    {
-      id: "p7",
-      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-7.jpg",
-      caption: "Shining brighter with every moment ✨",
-      tag: "Sparkle",
-    },
+  {
+    id: "p7",
+    url: `${import.meta.env.BASE_URL}images/image-7.jpg`,
+    caption: "Shining brighter with every moment ✨",
+    tag: "Sparkle",
+  },
 
-    {
-      id: "p8",
-      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-8.jpg",
-      caption: "Walking through life with confidence 🌷",
-      tag: "Sparkle",
-    },
+  {
+    id: "p8",
+    url: `${import.meta.env.BASE_URL}images/image-8.jpg`,
+    caption: "Walking through life with confidence 🌷",
+    tag: "Sparkle",
+  },
 
-     {
-      id: "p9",
-      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-9.jpg",
-      caption: "Grace captured in a single frame. 🌸",
-      tag: "Sparkle",
-    }
-  ],
+  {
+    id: "p9",
+    url: `${import.meta.env.BASE_URL}images/image-9.jpg`,
+    caption: "Grace captured in a single frame. 🌸",
+    tag: "Sparkle",
+  },
+],
 
   reasons: [
     {
