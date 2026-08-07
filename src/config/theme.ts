@@ -180,8 +180,8 @@ export const THEME: ThemeConfig = {
     {
       id: "t4",
       date: "2026",
-      title: "Happy 20th Birthday! 🎂",
-      description: "Today is a celebration of 20 amazing years. May this new chapter bring endless happiness, success, good health, beautiful memories, and all the dreams your heart wishes for. Keep smiling and shining like the sunflower you are. 🌻💛",
+      title: "Happy 21th Birthday! 🎂",
+      description: "Today is a celebration of 21 amazing years. May this new chapter bring endless happiness, success, good health, beautiful memories, and all the dreams your heart wishes for. Keep smiling and shining like the sunflower you are. 🌻💛",
       badge: "🎂 A New Chapter Begins",
       image: "https://images.openai.com/static-rsc-4/iZsRySu0Q6EB8rkMiCZTai61vguMkn8c_0WnMvqUeY0nunV1uXTtENiPgQ7767hPhJJ0JR2TXXRJTILd6WQPJ0JvIxYpOh5no_i_NZrLwedkfsvL1eHSenT2vqx21FmBcJfliYR59Nq5l1rmBuMd1Cmx9x22ZElHAwdaPJg8SCqbeEqT1phvq504VjLkB_nN?purpose=fullsize"
     }
@@ -190,8 +190,8 @@ export const THEME: ThemeConfig = {
   giftCoupons: [
     {
       id: "c1",
-      title: "☕ 1x Coffee Treat",
-      description: "One coffee or your favorite drink—my treat whenever you want.",
+      title: "🍫 1x Chocolate Treat",
+      description: "One Chocolate or your favorite Chocolate Bar—my treat whenever you want.",
       code: "COFFEE-TREAT",
       icon: "Sparkles",
       color: "from-amber-100 to-amber-200"
@@ -206,8 +206,8 @@ export const THEME: ThemeConfig = {
     },
     {
       id: "c3",
-      title: "1🍕 1x Favorite Meal",
-      description: "Let's enjoy your favorite food together.",
+      title: "1🥟 1x Momo Meal",
+      description: "Let's enjoy your favorite momo together.",
       code: "FOOD-TREAT",
       icon: "Gift",
       color: "from-amber-200 to-orange-100"
