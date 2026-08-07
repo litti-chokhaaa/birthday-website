@@ -45,63 +45,63 @@ export const THEME: ThemeConfig = {
   photos: [
     {
       id: "p1",
-      url: "public/images/image-1.jpeg",
+      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-1.jpeg",
       caption: "A smile that makes every day brighter ✨",
       tag: "Smile",
     },
 
     {
       id: "p2",
-      url: "public/images/image-2.jpg",
+      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-2.jpg",
       caption: "Elegance wrapped in sunshine 🌸",
       tag: "Sunset",
     },
 
     {
       id: "p3",
-      url: "public/images/image-3.jpg",
+      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-3.jpg",
       caption: "Happiness looks beautiful on you 💖",
       tag: "Joy",
     },
 
     {
       id: "p4",
-      url: "public/images/image-4.jpg",
+      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-.jpg",
       caption: "Blooming with grace and confidence 🌿",
       tag: "Adventure",
     },
 
     {
       id: "p5",
-      url: "public/images/image-5.jpg",
+      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-5.jpg",
       caption: "Lost in dreams, glowing with grace 🌙",
       tag: "Sparkle",
     },
 
     {
       id: "p6",
-      url: "public/images/image-6.jpg",
+      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-6.jpg",
       caption: "Royal by heart, graceful by nature 👑",
       tag: "Love",
     },
 
     {
       id: "p7",
-      url: "public/images/image-7.jpg",
+      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-7.jpg",
       caption: "Shining brighter with every moment ✨",
       tag: "Sparkle",
     },
 
     {
       id: "p8",
-      url: "public/images/image-8.jpg",
+      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-8.jpg",
       caption: "Walking through life with confidence 🌷",
       tag: "Sparkle",
     },
 
      {
       id: "p9",
-      url: "public/images/image-9.jpg",
+      url: "https://github.com/litti-chokhaaa/birthday-website/blob/main/public/images/image-9.jpg",
       caption: "Grace captured in a single frame. 🌸",
       tag: "Sparkle",
     }
